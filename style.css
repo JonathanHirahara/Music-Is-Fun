@@ -1,12 +1,33 @@
-.card{
-  width: 18rem;
+#songs{
+  
+height: cover;
+     width: 100vw;
+    background-size: cover;
+    margin:  50 auto;
+    background: repeating-linear-gradient(
+      45deg,
+      purple 5px,
+      blue 40px,
+      green 40px,
+      black 80px 
+    )
 }
-.card-body{
+#songs{
+  color: rgb(255, 255, 255);
+  
+  
 
 }
-.card-title{
-
+.bg-dial{
+  background-image: url(https://cdn.hipwallpaper.com/i/56/46/Fe1NrK.jpg);
+  background-size: cover;
+  height: 50vh;
+  width:100vw;
+  border-color: grey;
+  border-width: 10px;
+  border-style: solid;
+ 
 }
-.card-text{
 
-}
+
+

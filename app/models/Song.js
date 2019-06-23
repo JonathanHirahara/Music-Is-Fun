@@ -10,8 +10,8 @@ export default class Song {
     }
     get Template() {
         return `
-        <div class="col ">
-        <img src="${ this.albumArt}"</img>
+        <div id="tiles" class="col-3 " >
+        <img  src="${ this.albumArt}"</img>
          <h6>Title: ${ this.title}</h6> 
          <h6>Artist: ${ this.artist}</h6>
          <h6>Collection: ${ this.collection}</h6>
